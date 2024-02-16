@@ -48,6 +48,12 @@
   width: 20%;
 }
 
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
 #sidebar ul li a {
   display: block;
   padding: 15px 0;
@@ -55,12 +61,6 @@
   text-decoration: none;
 }
 
-#sidebar ul {
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-}
-
-#sidebar a:hover {
+#sidebar ul li a:hover {
   background-color: #000;
 }
