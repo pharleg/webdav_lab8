@@ -1,8 +1,6 @@
 #main-navbar {
-  margin: 0 auto;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
+  background-color: blue;
+  overflow: hidden;
 }
 
 #navbar-container {
@@ -12,7 +10,6 @@
 }
 
 #main-navbar ul {
-  padding: 0;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -25,7 +22,7 @@
   float: left;
   position: relative;
   right: 50%;
-  display: inline-block;
+  display: block;
 }
 
 #main-navbar ul li a {
@@ -45,8 +42,7 @@
 
 #sidebar {
   position: fixed;
-  right: 0;
-  top: 0;
+  right: 0%;
   background-color: red;
   height: 100%;
   width: 20%;
